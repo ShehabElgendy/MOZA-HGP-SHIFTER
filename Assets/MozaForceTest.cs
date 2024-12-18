@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using mozaAPI;
 using TMPro;
@@ -9,7 +10,13 @@ public class MozaForceTest : MonoBehaviour
     
     private bool[] buttonStates = new bool[20];
     private int lastActiveButton = -1;
-    
+
+
+    private void Start()
+    {
+        gearData = GEAR.GEAR1st;
+    }
+
     void Update()
     {
         bool stateChanged = false;
