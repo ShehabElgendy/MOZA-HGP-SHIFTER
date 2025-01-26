@@ -4,17 +4,17 @@
  * For other APIs in MOZA SDK, please refer to the example code file `sdk_api_test.cc` in the MOZA SDK C++ version.
  * You can also refer to the API documentation of the C++ version, located at `docsEng/index.html`.
  * The API in the MOZA SDK C# version is almost identical to the C++ version in terms of function names and input parameters.
-*************************************************************************************/
+ *************************************************************************************/
 
 using System;
 using mozaAPI;
 using UnityEngine;
 using static mozaAPI.mozaAPI;
 
-public class ShifterTest :MonoBehaviour
+public class ShifterTest : MonoBehaviour
 {
     void Start()
-    {    
+    {
         MozaShifterTest();
         Debug.Log("Program finished.");
     }
