@@ -13,10 +13,10 @@ using static mozaAPI.mozaAPI;
 
 public class ShifterTest : MonoBehaviour
 {
-    void Start()
+    void Update()
     {
         MozaShifterTest();
-        Debug.Log("Program finished.");
+        //Debug.Log("Program finished.");
     }
 
 
